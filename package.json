@@ -1,0 +1,29 @@
+{
+  "name": "node-orm",
+  "version": "0.0.0",
+  "description": "A node.js orm",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-syntax-decorators": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-register": "^6.18.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "keywords": [
+    "node",
+    "orm"
+  ],
+  "author": "Colan Connon",
+  "license": "MIT"
+}
